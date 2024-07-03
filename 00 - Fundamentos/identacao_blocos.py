@@ -1,16 +1,16 @@
-def sacar(valor):
+def sacar(saque):
     saldo = 500
 
-    if saldo >= valor:
-        print("valor sacado!")
+    if saldo >= saque:
+        print("Você sacou", saque,"!")
         print("retire o seu dinheiro na boca do caixa.")
 
     print("Obrigado por ser nosso cliente, tenha um bom dia!")
 
 
-def depositar(valor):
+def depositar(saque):
     saldo = 500
-    saldo += valor
+    saldo += saque
 
 
-sacar(1000)
+sacar(200)
