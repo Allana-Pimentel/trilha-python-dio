@@ -6,6 +6,7 @@ saldo = 2000
 saque = 1500
 cheque_especial = 450
 
+#Aninhado pois dentro de if temos outro if
 if conta_normal:
 
     if saldo >= saque:

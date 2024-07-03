@@ -9,3 +9,15 @@ while opcao != 0:
         print("Exibindo o extrato...")
 else:
     print("Obrigado por usar nosso sistema bancário, até logo!")
+
+#minhas anotações
+for numero in range(10):
+    if numero == 10:
+        break
+    if numero % 2 == 0:
+        print("numero par")
+    else:
+        print("numero impar")
+
+    print(numero)
+    
